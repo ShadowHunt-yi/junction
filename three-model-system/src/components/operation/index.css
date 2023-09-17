@@ -1,0 +1,63 @@
+.container {
+  padding: 10px 10px 48px;
+}
+.container .card {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container .card .gui {
+  position: static;
+}
+.container .card .gui :global .cr input {
+  width: 25% !important;
+  text-align: center;
+  height: 80px;
+}
+.container .card .drawer-box {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 4px;
+  text-align: center;
+  transition: border-color 0.3s;
+  cursor: pointer;
+}
+.container .card .drawer-box:hover {
+  border-color: #40a9ff;
+}
+.container .card .drawer-box .inbox {
+  display: block;
+  color: #40a9ff;
+  font-size: 30px;
+}
+.container .card .drawer-box .tip {
+  color: #666;
+}
+.container .card .drawer-box .hint {
+  font-size: 12px;
+  color: #999;
+}
+.container .card :global .ant-card-head {
+  background-color: #fafafa;
+}
+.container .card :global .ant-card-body {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.container .card :global .ant-card-body :global .ant-tag-checkable {
+  user-select: none;
+}
+.modal {
+  width: 400px !important;
+}
+.modal .modal-tip {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.modal .modal-tip i {
+  margin-right: 5px;
+  color: #faad14;
+}
